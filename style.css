@@ -1,0 +1,107 @@
+:root {
+  --main-gray: #CFCFCF;
+  --main-green: #68826F;
+  --main-brown: #827575;
+  --main-pink: #D79696
+}
+html {
+  margin: auto;
+  text-align: center;
+}
+
+/* Base Styles */
+h1{
+  font-size: 3rem;
+  display: block;
+}
+p{
+  font-size: 2rem;
+  display: block;
+  line-height: 1.5;
+  text-align: center;
+}
+h3{
+  font-size: 2.8rem;
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+}
+li{
+  font-size: 2rem;
+  margin: 2rem;
+  display: block;
+  line-height: 1.5;
+  border-top: 1px solid black;
+  padding-top: 10px;
+ /*end base styles */ 
+}
+#amrecipe {
+  display: none;
+  border-top: 2px solid black;
+} 
+.button {
+  font-size: 1.5rem;
+  color: var(--main-gray);
+background-color: var(--main-brown);
+}
+#header{
+  background-color: var(--main-green);
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center; /* Centered text */
+  font-size: 30px; /* Big font size */
+  font-weight: bold;
+  position: fixed;
+  vertical-align: middle;
+  transition: 0.2s; 
+}
+#ingredients {
+  border-top: 2px solid black;
+}
+.footer {
+  position: fixed; 
+  bottom: 0;
+  text-align: right;
+  
+  
+}
+#morelessbuttons {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid black;
+}
+#myBtn:hover {
+ font-size: 1.7rem;
+  transition: font 0.3s ease-out;
+}
+
+#personalessay {
+  display: none;
+  border-top: 2px solid black;
+}
+#prorecipe {
+  border-top: 2px solid black;
+}
+
+#recipeBtn:hover {
+  font-size: 1.7rem;
+ transition: font 0.3s ease-out;
+}
+
+
+.recipe-img {
+  max-width: 400px;
+  height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+
+ #morelessbuttons{
+    display: flex;
+  flex-direction: row;
+   justify-content: center;
+   min-width: 600px;
+  }
+  
+}
