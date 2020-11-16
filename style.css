@@ -63,7 +63,7 @@ background-color: var(--main-brown);
   vertical-align: middle;
   transition: 0.2s; 
 }
-#ingredients {
+.ingredients {
   border-top: 2px solid black;
   max-width: 700px;
   margin: auto;
