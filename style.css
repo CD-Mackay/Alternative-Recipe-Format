@@ -7,6 +7,7 @@
 html {
   margin: auto;
   text-align: center;
+  max-width: 1200px;
 }
 
 /* Base Styles */
@@ -18,12 +19,11 @@ p{
   font-size: 2rem;
   display: block;
   line-height: 1.5;
-  text-align: center;
+  
 }
 h3{
   font-size: 2.8rem;
   display: block;
-  text-align: center;
   text-decoration: underline;
 }
 li{
@@ -35,6 +35,10 @@ li{
   padding-top: 10px;
  /*end base styles */ 
 }
+a {
+  color: black;
+  font: courier new;
+}
 #amrecipe {
   display: none;
   border-top: 2px solid black;
@@ -43,6 +47,9 @@ li{
   font-size: 1.5rem;
   color: var(--main-gray);
 background-color: var(--main-brown);
+}
+#dish-links{
+  margin-top: 40vh;
 }
 #header{
   background-color: var(--main-green);
@@ -58,6 +65,8 @@ background-color: var(--main-brown);
 }
 #ingredients {
   border-top: 2px solid black;
+  max-width: 700px;
+  margin: auto;
 }
 .footer {
   position: fixed; 
@@ -83,7 +92,10 @@ background-color: var(--main-brown);
 #prorecipe {
   border-top: 2px solid black;
 }
-
+.recipe {
+  margin: auto;
+  max-width: 700px;
+}
 #recipeBtn:hover {
   font-size: 1.7rem;
  transition: font 0.3s ease-out;
@@ -103,5 +115,5 @@ background-color: var(--main-brown);
    justify-content: center;
    min-width: 600px;
   }
-  
+
 }
