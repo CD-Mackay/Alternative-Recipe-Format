@@ -38,3 +38,13 @@ function scrollFunction() {
     document.getElementById("header").style.fontSize = "30px";
   }
 }
+
+function highLightFunctionOne() {
+  document.getElementById("note-one").style.background = "red";
+
+}
+
+function highLightFunctionTwo() {
+  document.getElementById("note-two").style.background = "red";
+
+}
