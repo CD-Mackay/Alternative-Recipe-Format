@@ -71,9 +71,11 @@ background-color: var(--main-brown);
 .footer {
   position: fixed; 
   bottom: 0;
-  text-align: right;
-  
-  
+  text-align: right; 
+}
+#home-nav {
+  position: absolute;
+  left: 0;
 }
 #morelessbuttons {
   display: flex;
