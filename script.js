@@ -38,13 +38,15 @@ function scrollFunction() {
     document.getElementById("header").style.fontSize = "30px";
   }
 }
-
+// Highlight selected note when navigating with anchor links
 function highLightFunctionOne() {
   document.getElementById("note-one").style.background = "red";
+  setTimeout(function() {document.getElementById("note-one").style.background = "white"}, 2000);
 
 }
 
 function highLightFunctionTwo() {
   document.getElementById("note-two").style.background = "red";
+  setTimeout(function() {document.getElementById("note-two").style.background = "white"}, 2000);
 
 }
