@@ -64,6 +64,11 @@ background-color: var(--main-brown);
 #dish-links{
   margin-top: 40vh;
 }
+.footer {
+  position: fixed; 
+  bottom: 0;
+  text-align: right; 
+}
 #header{
   background-color: var(--main-green);
   top: 0;
@@ -76,20 +81,17 @@ background-color: var(--main-brown);
   vertical-align: middle;
   transition: 0.2s; 
 }
+#home-nav {
+  position: absolute;
+  left: 0;
+}
 .ingredients {
   border-top: 2px solid black;
   max-width: 700px;
   margin: auto;
 }
-.footer {
-  position: fixed; 
-  bottom: 0;
-  text-align: right; 
-}
-#home-nav {
-  position: absolute;
-  left: 0;
-}
+
+
 #morelessbuttons {
   display: flex;
   flex-direction: column;
@@ -123,12 +125,12 @@ background-color: var(--main-brown);
 
 
 
+
 .recipe-img {
-  max-width: 400px;
-  height: auto;
+  display: none;
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
 
  #morelessbuttons{
     display: flex;
@@ -136,5 +138,10 @@ background-color: var(--main-brown);
    justify-content: center;
    min-width: 600px;
   }
-
+  .recipe-img {
+    display: inline;
+    max-width: 400px;
+  height: auto;
+  }
+ 
 }
