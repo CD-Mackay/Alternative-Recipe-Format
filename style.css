@@ -30,10 +30,11 @@ h3{
 }
 h4{
   text-align: center;
+  font-size: 2.2rem;
 }
 h5{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2.0rem;
 }
 h6{
   text-align: center;
@@ -95,7 +96,6 @@ background-color: var(--main-brown);
 #morelessbuttons {
   display: flex;
   flex-direction: column;
-  border-top: 2px solid black;
 }
 #myBtn:hover {
  font-size: 1.7rem;
@@ -122,14 +122,22 @@ background-color: var(--main-brown);
   font-size: 1.7rem;
  transition: font 0.3s ease-out;
 }
+.recipe-img {
+  display: inline;
+  max-width: 400px;
+height: auto;
+}
 
 
-
-
+@media only screen and (max-width: 601px) {
 .recipe-img {
   display: none;
 }
-
+#morelessbuttons {
+  display: flex;
+  flex-direction: column;
+}
+}
 @media (min-width: 600px) {
 
  #morelessbuttons{
